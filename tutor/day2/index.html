@@ -1,0 +1,134 @@
+<!-- 
+ usage of doctype html. 
+ lang attribute in html tag. usage of screen readers.
+ use emmet shortcuts.
+head tag (meta charset tag viewport)
+self closing tags? - no children
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html introduction</title>
+  </head>
+  <body>
+    <h1>HTML Introduction</h1>
+    <section>
+      <h2>1. usage of <code>&lt;!DOCTYPE html&gt;</code> tag</h2>
+      <p>
+        <code>&lt;!DOCTYPE html&gt;</code> tells the browser to use HTML5 rules
+        and render the page in standards mode. If we dont use doctype, the
+        browser will render the page in quirks mode, which can lead to
+        inconsistent behavior across different browsers and may not support
+        modern HTML features.
+      </p>
+      <h3>Short History</h3>
+      <p>
+        Initially, DOCTYPE was written as a long SGML-based declaration with a
+        public identifier and a DTD URL.
+      </p>
+      <p>
+        Example (older style):
+        <code>
+          &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd"&gt;
+        </code>
+      </p>
+      <h3>Variations</h3>
+      <p>
+        In HTML 4.01, there were 3 common variations: Strict, Transitional, and
+        Frameset.
+      </p>
+      <p>
+        In HTML5, this was simplified to one form:
+        <code>&lt;!DOCTYPE html&gt;</code>.
+      </p>
+    </section>
+    <section style="margin-top: 60px">
+      <h2>2. lang attribute in html tag.</h2>
+      <p>
+        The <code>lang</code> attribute specifies the language of the element's
+        content. It helps screen readers and search engines understand the
+        language of the text.
+      </p>
+      <h3>Examples of <code>lang</code> attribute usage</h3>
+      <p>1. Set language for the whole page (English):</p>
+      <p><code>&lt;html lang="en"&gt;</code></p>
+
+      <p>2. Set regional English:</p>
+      <p><code>&lt;html lang="en-US"&gt;</code></p>
+      <p><code>&lt;html lang="en-GB"&gt;</code></p>
+
+      <p>3. Whole page in Hindi:</p>
+      <p><code>&lt;html lang="hi"&gt;</code></p>
+
+      <p>Why this helps:</p>
+      <p>- Screen readers pronounce text correctly</p>
+      <p>- Search engines better understand page language</p>
+      <p>- Translation tools work more accurately</p>
+    </section>
+
+    <section style="margin-top: 60px">
+      <h2>3. Emmet shortcuts in VS Code</h2>
+      <p>Emmet is a powerful tool for quickly generating HTML structures.</p>
+
+      <h3>Common Emmet shortcuts (mostly in HTML/CSS)</h3>
+      <p><code>!</code> -> HTML5 boilerplate</p>
+      <p><code>tag</code> -> create tag (example: <code>div</code>)</p>
+      <p><code>tag.class</code> -> class (example: <code>div.card</code>)</p>
+      <p><code>tag#id</code> -> id (example: <code>section#hero</code>)</p>
+      <p>
+        <code>.class</code> -> defaults to div (example:
+        <code>.container</code>)
+      </p>
+      <p><code>#id</code> -> defaults to div (example: <code>#app</code>)</p>
+      <p><code>&gt;</code> -> child (example: <code>ul&gt;li</code>)</p>
+      <p><code>+</code> -> sibling (example: <code>h1+p</code>)</p>
+      <p>
+        <code>^</code> -> go up one level (example:
+        <code>div&gt;ul&gt;li^p</code>)
+      </p>
+      <p><code>*n</code> -> repeat (example: <code>li*5</code>)</p>
+      <p><code>$</code> -> numbering (example: <code>li.item$*3</code>)</p>
+      <p>
+        <code>{text}</code> -> text content (example:
+        <code>a{Click here}</code>)
+      </p>
+      <p>
+        <code>[attr=value]</code> -> attributes (example:
+        <code>input[type=text]</code>)
+      </p>
+      <p>
+        <code>()</code> -> grouping (example:
+        <code>header&gt;(nav&gt;ul&gt;li*3)+footer</code>)
+      </p>
+      <p><code>lorem</code> or <code>lorem20</code> -> dummy text</p>
+
+      <h3>CSS Emmet examples</h3>
+      <p><code>m10</code> -> <code>margin: 10px;</code></p>
+      <p><code>p20</code> -> <code>padding: 20px;</code></p>
+      <p><code>w100</code> -> <code>width: 100px;</code></p>
+      <p><code>d:f</code> -> <code>display: flex;</code></p>
+      <p><code>jc:c</code> -> <code>justify-content: center;</code></p>
+      <p><code>ai:c</code> -> <code>align-items: center;</code></p>
+
+      <h3>Useful ready-made examples</h3>
+      <p><code>ul&gt;li*3</code></p>
+      <p><code>table&gt;tr*3&gt;td*4</code></p>
+      <p><code>form&gt;label+input+button</code></p>
+      <p><code>nav&gt;ul&gt;li&gt;a</code></p>
+    </section>
+  </body>
+</html>
+
+<!-- code tag is used to display code snippets in a way that preserves formatting and
+uses a monospace font. It is often used within paragraphs to highlight specific
+code elements or examples. In the above example, we use the code tag to show the
+DOCTYPE declaration and other HTML snippets clearly. -->
+
+<!-- character entities - &lt; for <, &gt; for >, &amp; for &, &quot; for ", &#39;
+for '. -->
+
+<!-- lang attribute in html tag 
+https://www.deccanchronicle.com/ https://www.bhaskar.com/ -->

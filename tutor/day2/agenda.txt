@@ -1,0 +1,15 @@
+date: 17th april 2026.
+
+html structure
+(html, head tag, doctype history)
+html boiler plate generation, head tag, doctype history
+usage of lang attribute in html tag.
+meta tags ( viewport, utf8 )
+
+CSS:
+link tag: create and link a separate style file.
+
+CSS syntax and selectors (class, )
+
+emmet shortcuts
+screen reader intro.(nvda, voice over)

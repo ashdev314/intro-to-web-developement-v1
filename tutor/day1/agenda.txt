@@ -1,0 +1,17 @@
+date: 16th april 2026.
+
+introduction to web development
+
+html structure
+(body, div, span, heading tags, p, )
+invalid tag
+
+vs code editor, live server extension.
+
+chrome dev tools.
+(inspect elements, check css, source tab)
+
+CSS
+cascading style overriding feature, 
+!important - not preferred to use.
+inline styling

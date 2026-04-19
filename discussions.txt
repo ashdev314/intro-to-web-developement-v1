@@ -1,0 +1,5 @@
+1. code editors: 
+google's antigravity - built on top of vs code, with ai agents - gemini, 
+cursor
+
+
