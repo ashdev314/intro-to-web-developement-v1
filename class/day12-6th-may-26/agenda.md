@@ -1,5 +1,7 @@
 # Agenda for 6th May, 2026
 
+## readme file for this project
+
 ## flexbox css:
 
 > mdn web docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts
