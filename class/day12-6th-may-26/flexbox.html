@@ -51,10 +51,13 @@
       A flex-grow value of 5 will make an item 5 times larger than an item with a flex-grow value of 1.
        */
       .box1 {
-        flex-grow: 1;
+        flex-grow: 2;
       }
       .box2 {
         flex-grow: 5;
+      }
+      .box3 {
+        flex-grow: 3;
       }
 
       /* example of product card */
@@ -74,9 +77,9 @@
       <h1>Flexbox Example</h1>
     </div>
     <div class="container alignItems">
-      <div class="box box1">box1</div>
-      <div class="box box2">box2</div>
-      <div class="box box3">box3</div>
+      <div class="box box1" tabindex="0">box1</div>
+      <div class="box box2" tabindex="0">box2</div>
+      <div class="box box3" tabindex="0">box3</div>
       <!-- <div class="box">box4</div>
       <div class="box">box5</div>
       <div class="box">box6</div>
@@ -86,14 +89,14 @@
 
       <!-- <div class="box">box10</div> -->
 
-      <!-- <div class="box product-card">
+      <div class="box product-card">
         <p>product title</p>
         <button>Add to Cart</button>
       </div>
       <div class="box product-card">
         <p>product title 2</p>
         <button>Add to Cart</button>
-      </div> -->
+      </div>
     </div>
   </body>
 </html>
